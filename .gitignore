@@ -1,6 +1,5 @@
 ###phpstorm ###
 .idea
-
 ###> env ###
 .env
 ###> symfony/framework-bundle ###

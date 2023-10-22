@@ -1,11 +1,8 @@
 <?php
-
 namespace App\Repository;
-
 use App\Entity\Author;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
-
 /**
  * @extends ServiceEntityRepository<Author>
  *
@@ -20,7 +17,6 @@ class AuthorRepository extends ServiceEntityRepository
     {
         parent::__construct($registry, Author::class);
     }
-
 //    /**
 //     * @return Author[] Returns an array of Author objects
 //     */
@@ -35,7 +31,6 @@ class AuthorRepository extends ServiceEntityRepository
 //            ->getResult()
 //        ;
 //    }
-
 //    public function findOneBySomeField($value): ?Author
 //    {
 //        return $this->createQueryBuilder('a')

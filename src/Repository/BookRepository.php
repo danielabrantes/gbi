@@ -1,11 +1,8 @@
 <?php
-
 namespace App\Repository;
-
 use App\Entity\Book;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
-
 /**
  * @extends ServiceEntityRepository<Book>
  *
@@ -20,7 +17,6 @@ class BookRepository extends ServiceEntityRepository
     {
         parent::__construct($registry, Book::class);
     }
-
 //    /**
 //     * @return Book[] Returns an array of Book objects
 //     */
@@ -35,7 +31,6 @@ class BookRepository extends ServiceEntityRepository
 //            ->getResult()
 //        ;
 //    }
-
 //    public function findOneBySomeField($value): ?Book
 //    {
 //        return $this->createQueryBuilder('b')

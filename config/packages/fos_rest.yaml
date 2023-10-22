@@ -13,7 +13,6 @@
 ##    format_listener:
 ##        rules:
 ##            - { path: ^/api, prefer_extension: true, fallback_format: json, priorities: [ json, html ] }
-
 fos_rest:
     format_listener:
         rules:

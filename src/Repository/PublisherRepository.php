@@ -1,11 +1,8 @@
 <?php
-
 namespace App\Repository;
-
 use App\Entity\Publisher;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
-
 /**
  * @extends ServiceEntityRepository<Publisher>
  *
@@ -20,7 +17,6 @@ class PublisherRepository extends ServiceEntityRepository
     {
         parent::__construct($registry, Publisher::class);
     }
-
 //    /**
 //     * @return Publisher[] Returns an array of Publisher objects
 //     */
@@ -35,7 +31,6 @@ class PublisherRepository extends ServiceEntityRepository
 //            ->getResult()
 //        ;
 //    }
-
 //    public function findOneBySomeField($value): ?Publisher
 //    {
 //        return $this->createQueryBuilder('p')
