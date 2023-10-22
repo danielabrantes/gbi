@@ -11,6 +11,8 @@ composer require jms/serializer-bundle
 composer require friendsofsymfony/rest-bundle
 composer require symfony/maker-bundle
 composer require symfony/orm-pack --update-with-all-dependencies
+composer require --dev symfony/test-pack
+composer require --dev guzzlehttp/guzzle
 composer update
 composer install --optimize-autoloader --apcu-autoloader --no-dev
 composer dump-autoload -o
